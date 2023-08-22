@@ -1,0 +1,167 @@
+html {
+    background-color: lightgray;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: navy;
+    
+}
+
+
+header {
+    text-align: center;
+    padding-bottom: 2%;
+    
+}
+
+h1 {
+    font-size: 450%;
+    line-height: 90%;
+}
+
+
+nav {
+    width: 100%;
+    height: 30px;
+    padding-top: 8px;
+    background-color: navy;
+    color: white;
+}
+
+span {
+    margin-right: 1%;
+    margin-left: 1%;
+}
+
+span.p4 {
+    float: right;
+}
+
+div.htop {
+    background-color: white;
+    margin-top: 2%;
+    padding-top: 2%;
+}
+
+body {
+    width: 96%;
+    margin: auto;
+   
+    
+}
+
+div.parent {
+    
+    display:inline-flex;
+    overflow-x: hidden;
+    
+    
+}
+
+div.leftmain {
+    display: block;
+    margin-top: 1%;
+    width: 60%;
+    height: 100%;
+    
+}
+
+div.rightmain {
+    float:initial;
+    margin-top: 1%;
+    width: 40%;
+    height: 100%;
+    
+    
+    
+}
+
+div.left1, div.left2, div.right1, div.right2 {
+    background-color: white;
+
+}
+
+.left1 {
+    height: 30%;
+    width: 96%;
+    padding-left: 2%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    
+}
+
+.left2 {
+    margin-top: 2%;
+    height: 30%;
+    width: 96%;
+    padding-left: 2%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+img.mmcm {
+    object-fit: cover;
+    width: 98%;
+}
+
+p.desc1 {
+    text-align: justify;
+    width: 98%;
+}
+
+p.desc2 {
+    text-align: justify;
+    width: 98%;
+}
+
+
+img.cea {
+    object-fit: cover;
+    width: 98%;
+}
+
+
+div.right1 {
+    height: 30%;
+    width: 100%;
+    padding-left: 2%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+img.profile {
+    object-fit: cover;
+    width: 96%;
+}
+
+p.desc3 {
+    text-align: justify;
+    width: 96%;
+}
+
+div.right2 {
+    margin-top: 2%;
+    height: 30%;
+    width: 100%;
+    padding-left: 2%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+img.food {
+    object-fit: cover;
+    width: 96%;
+    
+}
+
+.ending {
+    font-size: 150%;
+    line-height: 5%;
+    color: white;
+    text-align: center;
+    background-color: navy;
+    margin-top: 1%;
+    padding: 1%;
+    margin-bottom: 1%;
+    border-style: solid;
+    border-color: rgb(185, 185, 185);
+    border-width: 10px;
+}
