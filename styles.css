@@ -1,5 +1,5 @@
 html {
-    background-color: lightgray;
+    background-color: rgb(27, 27, 27);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: navy;
     
@@ -36,7 +36,7 @@ span.p4 {
 }
 
 div.htop {
-    background-color: white;
+    background-color: rgb(243, 243, 227);
     margin-top: 2%;
     padding-top: 2%;
 }
@@ -75,7 +75,7 @@ div.rightmain {
 }
 
 div.left1, div.left2, div.right1, div.right2 {
-    background-color: white;
+    background-color: rgb(243, 243, 227);
 
 }
 
@@ -162,6 +162,6 @@ img.food {
     padding: 1%;
     margin-bottom: 1%;
     border-style: solid;
-    border-color: rgb(185, 185, 185);
+    border-color: rgb(255, 255, 255);
     border-width: 10px;
 }
