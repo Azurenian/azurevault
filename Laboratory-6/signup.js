@@ -14,6 +14,7 @@ function fnameChecker() {
     if (ftester == true || fname == "") {
         document.getElementById("fname").style.borderColor = "red";
         document.getElementById("fname").style.borderWidth = "1px";
+        document.getElementById("invf").style.display = "block";
         return false;
         
     }
@@ -21,6 +22,7 @@ function fnameChecker() {
     else {
         document.getElementById("fname").style.borderColor = "green";
         document.getElementById("fname").style.borderWidth = "2px";
+        document.getElementById("invf").style.display = "none";
         return true;
     }
 
@@ -39,12 +41,14 @@ function lnameChecker() {
     if (ltester == true || lname == "") {
         document.getElementById("lname").style.borderColor = "red";
         document.getElementById("lname").style.borderWidth = "1px";
+        document.getElementById("invl").style.display = "block";
         return false;
     }
 
     else {
         document.getElementById("lname").style.borderColor = "green";
         document.getElementById("lname").style.borderWidth = "2px";
+        document.getElementById("invl").style.display = "none";
         return true;
         
     }
@@ -66,12 +70,14 @@ function midiChecker() {
     if (mtester == true || midi == "" || length > 1) {
         document.getElementById("midi").style.borderColor = "red";
         document.getElementById("midi").style.borderWidth = "1px";
+        document.getElementById("invm").style.display = "block";
         return false;
     }
 
     else {
         document.getElementById("midi").style.borderColor = "green";
         document.getElementById("midi").style.borderWidth = "2px";
+        document.getElementById("invm").style.display = "none";
         return true;
         
     }
@@ -127,6 +133,10 @@ function resetAll() {
     document.getElementById("fname").style.borderWidth = "1px";
 
     document.getElementById("invalid").style.display = "none";
+    document.getElementById("invl").style.display = "none";
+    document.getElementById("invf").style.display = "none";
+    document.getElementById("invm").style.display = "none";
+    
 }
 
 /* Submit */
