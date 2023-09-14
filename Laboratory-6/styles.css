@@ -1,8 +1,15 @@
 
 body {
     background-color: rgb(223, 223, 223);
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url("gray.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    
 }
+
+
 
 .container {
     text-align: center;
